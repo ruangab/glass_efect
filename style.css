@@ -1,0 +1,30 @@
+:root{
+    --image: url('linus-mimietz-gvptKmonylk-unsplash.jpg')
+}
+
+
+body {
+    font-family: 'Montserat', sans-serif;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    height:100vh;
+
+    background:var(--image);
+    background-size: cover;
+    background-position: center;
+}
+
+.glass {
+
+    width: 50rem;
+    padding: 5rem 2rem;
+
+    backdrop-filter: blur(12px);
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 1.6rem;
+    color:#fff;
+    box-shadow: 5px 5px 25px 0 rgba(0, 0, 0, .1);
+
+
+}
